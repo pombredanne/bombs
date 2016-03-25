@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bombs by bones-codes</title>
+    <title>bomb.codes by bones-codes</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Bombs</h1>
+        <h1>bomb.codes</h1>
         <p></p>
 
         <p class="view"><a href="https://github.com/bones-codes/bombs">View the Project on GitHub <small>bones-codes/bombs</small></a></p>
@@ -29,13 +29,26 @@
       </header>
       <section>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a id="bombs-for-the-masses" class="anchor" href="#bombs-for-the-masses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bombs for the masses</h3>
 
-<p>A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. The following files can be used to test whether an application is vulnerable to this type of attack. Use at your own risk --- I am not responsible for any harm that these files cause for your application or system.</p>
+<p>A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. The following files can be used to test whether an application is vulnerable to this type of attack. </p>
 
 <hr>
 
-<p><strong>Archives</strong></p>
+<p><strong>Archives</strong>
+| Format  | Archive Size | Compression Ratio |
+| ------------- | ------------- | ------------- |
+| <a href="http://www.bzip.org/">bzip2</a>  | 7KB  | ~1427411:1 |
+| <a href="https://code.google.com/archive/p/xar/">xar</a> (bzip2) | 9KB | ~1198921:1  |
+| <a href="http://www.7-zip.org/7z.html">7z</a> | 1.5MB | ~6848:1 |
+| <a href="http://tukaani.org/xz/format.html">xz</a> | 1.5MB | ~6875:1 |
+| <a href="https://www.gnu.org/software/gzip/">Gzip</a> | 10.2MB | ~1029:1 |
+| <a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a> | 10.2MB | ~1029:1 |
+| <a href="https://cyan4973.github.io/lz4/">LZ4</a> | 41.2MB | ~258:1 |</p>
+
+<blockquote>
+<p>Ratios calculated from a zero-generated 10GB file: <code>dd if=/dev/zero of=10GB bs=1024 count=0 seek=$[1024*10000]</code></p>
+</blockquote>
 
 <hr>
 
@@ -44,6 +57,13 @@
 <hr>
 
 <p><strong>HTTP</strong></p>
+
+<hr>
+
+<h3>
+<a id="license--disclaimer" class="anchor" href="#license--disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License &amp; Disclaimer</h3>
+
+<p>The whole project is available under MIT license, see <a href="LICENSE">LICENSE</a>. Use of these files is at your own risk --- I am not responsible for any harm that these files cause for your application, system, or anything else. </p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/bones-codes">bones-codes</a></p>
