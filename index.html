@@ -38,15 +38,50 @@
 <p><strong>Archives</strong></p>
 
 <p><em>Ratios calculated from a zero-generated 10GB file: <code>dd if=/dev/zero of=10GB bs=1024 count=0 seek=$[1024*10000]</code></em>
-| Format  | Archive Size | Compression Ratio |
-| ------------- | ------------- | ------------- |
-| <a href="http://www.bzip.org/">bzip2</a>  | 7KB  | ~1427411:1 |
-| <a href="https://code.google.com/archive/p/xar/">xar</a> (bzip2) | 9KB | ~1198921:1  |
-| <a href="http://www.7-zip.org/7z.html">7z</a> | 1.5MB | ~6848:1 |
-| <a href="http://tukaani.org/xz/format.html">xz</a> | 1.5MB | ~6875:1 |
-| <a href="https://www.gnu.org/software/gzip/">Gzip</a> | 10.2MB | ~1029:1 |
-| <a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a> | 10.2MB | ~1029:1 |
-| <a href="https://cyan4973.github.io/lz4/">LZ4</a> | 41.2MB | ~258:1 |</p>
+</p>
+
+<table>
+    <tr>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Compression Ratio</th>
+    </tr>
+    <tr>
+        <td><a href="http://www.bzip.org/">bzip2</a></td>
+        <td>7KB</td>
+        <td>~1427411:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://code.google.com/archive/p/xar/">xar</a> (bzip2)</td>
+        <td>9KB</td>
+        <td>~1198921:1>
+    </tr>
+    <tr>
+        <td><a href="http://www.7-zip.org/7z.html">7z</a></td>
+        <td>1.5MB</td>
+        <td>~6848:1</td>
+    </tr>
+    <tr>
+        <td><a href="http://tukaani.org/xz/format.html">xz</a></td>
+        <td>1.5MB</td>
+        <td>~6875:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.gnu.org/software/gzip/">Gzip</a></td>
+        <td>10.2MB</td>
+        <td>~1029:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a></td>
+        <td>10.2MB</td>
+        <td>~1029:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://cyan4973.github.io/lz4/">LZ4</a></td>
+        <td>41.2MB</td>
+        <td>~258:1</td>
+    </tr>
+</table>
 
 <hr>
 
