@@ -3,7 +3,19 @@ A decompression bomb is a file designed to crash or render useless the program o
 
 __a note on usage__: To circumvent Github's file size upload restrictions, each size grouping for [archives](archives) and [http](http), and file format type for [images](images) have been compressed. These should be decompressed prior to using.
 
-
+                                               ____
+                                       __,-~~/~    `---.
+                                     _/_,---(      ,    )
+                                 __ /        <    /   )  \___
+                  - ------===;;;'====------------------===;;;===----- -  -
+                                    \/  ~"~"~"~"~"~\~"~)~"/
+                                    (_ (   \  (     >    \)
+                                     \_( _ <         >_>'
+                                        ~ `-i' ::>|--"
+                                            I;|.|.|
+                                           <|i::|i|`.
+                                          (` ^'"`-' ")
+-------------------------------------------------------------------------------
 ___
 ### license + disclaimer
 
