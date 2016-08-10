@@ -16,7 +16,6 @@ __a note on usage__: To circumvent Github's file size upload restrictions, each 
                                            <|i::|i|`.
                                           (` ^'"`-' ")
 -------------------------------------------------------------------------------
-___
 ### license + disclaimer
 
 The whole project is available under MIT license, see [LICENSE](LICENSE).
