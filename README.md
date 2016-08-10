@@ -15,7 +15,6 @@ __a note on usage__: To circumvent Github's 50MB file size upload restriction, g
                                             I;|.|.|
                                            <|i::|i|`.
                                           (` ^'"`-' ")
--------------------------------------------------------------------------------
 ### license + disclaimer
 
 The whole project is available under MIT license, see [LICENSE](LICENSE).
