@@ -1,8 +1,4 @@
 ### decompression bombs
-A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. These files can be used to test whether an application is vulnerable to this type of attack.
-
-__a note on usage__: To circumvent Github's 50MB file size upload restriction, groups of files have been zipped then bzipped. Remove these additional encodings prior to testing.
-
                                                ____
                                        __,-~~/~    `---.
                                      _/_,---(      ,    )
@@ -15,6 +11,10 @@ __a note on usage__: To circumvent Github's 50MB file size upload restriction, g
                                             I;|.|.|
                                            <|i::|i|`.
                                           (` ^'"`-' ")
+A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. These files can be used to test whether an application is vulnerable to this type of attack.
+
+__a note on usage__: To circumvent Github's 50MB file size upload restriction, groups of files have been zipped then bzipped. Remove these additional encodings prior to testing.
+
 ### license + disclaimer
 
 The whole project is available under MIT license, see [LICENSE](LICENSE).
